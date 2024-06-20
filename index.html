@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
@@ -9,11 +8,40 @@
     <title>Viktor Sakman</title>
 </head> 
 <body>
-    <div class="container">
-        <h1>Personal Website</h1>
-        <p>Some Projects:</p> 
-        <a href="Graphics-Town/index.html"><p>Graphics Town</p></a>
-        <!--  <a href="Badger-Buds/index.html"><p>Badger-Buds</p></a> --> 
-    </div>
+    <header>
+        <nav>
+            <!--
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            -->
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Viktor Sakman</h1>
+            <p>This is the default GitHub Pages webpage that I use to navigate to my past programming projects.</p>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Some Projects:</h2>
+            <div class="project-list">
+                <a href="Graphics-Town/index.html" class="project-item">
+                    <h3>Graphics Town</h3>
+                </a>
+                <!-- <a href="Badger-Buds/index.html" class="project-item">
+                    <h3>Badger Buds</h3>
+                </a> -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Last updated June 21st, 2024.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body> 
 </html>
