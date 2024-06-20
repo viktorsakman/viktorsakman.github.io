@@ -1,6 +1,6 @@
-import * as T from "../../libs/CS559-Three/build/three.module.js";
+import * as T from "../libs/CS559-Three/build/three.module.js";
 import * as Loaders from "../libs/CS559-Framework/loaders.js";
-import { GrObject } from "../../libs/CS559-Framework/GrObject.js";
+import { GrObject } from "../libs/CS559-Framework/GrObject.js";
 import { shaderMaterial } from "../libs/CS559-Framework/shaderHelper.js";
 import * as SimpleObjects from "../libs/CS559-Framework/SimpleObjects.js";
 
